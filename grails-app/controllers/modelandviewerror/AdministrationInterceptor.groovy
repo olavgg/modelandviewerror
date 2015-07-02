@@ -10,7 +10,7 @@ class AdministrationInterceptor {
 
     boolean before() {
         log.debug "running administration interceptor before()"
-        render view: '/notFound', status: NOT_FOUND
+        render view: '/notFound'
         return false
     }
 

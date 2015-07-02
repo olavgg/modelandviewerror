@@ -12,7 +12,6 @@ class UrlMappings {
             }
         }
 
-        "/$namespace/$controller/$action?"()
 
         "/"(view:"/index")
         "500"(view:'/error')
